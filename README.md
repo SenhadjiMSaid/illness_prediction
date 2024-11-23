@@ -66,7 +66,7 @@ illness_prediction/
 ### Step 1: Clone the Repository
 
 ```cmd
-git clone [https://github.com/your-username/illness_prediction.git](https://github.com/SenhadjiMSaid/illness_prediction.git)
+git clone https://github.com/SenhadjiMSaid/illness_prediction.git
 cd illness_prediction
 ```
 
