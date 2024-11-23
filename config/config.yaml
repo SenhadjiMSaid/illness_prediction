@@ -1,0 +1,21 @@
+# config.yaml
+app:
+  name: Illness Prediction System
+  version: 1.0.0
+  debug: true # Set to false in production
+
+data:
+  raw_data_path: "./data/raw/"
+  processed_data_path: "./data/processed/"
+  external_data_path: "./data/external/"
+
+model:
+  saved_model_path: "./models/trained_models/illness_model.pkl"
+  hyperparameters:
+    learning_rate: 0.01
+    epochs: 50
+    batch_size: 32
+
+logging:
+  level: INFO
+  log_file: "./logs/app.log"
