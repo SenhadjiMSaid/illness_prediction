@@ -1,350 +1,350 @@
-Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,is_labeled,Gender_Male,Blood Pressure_Low,Blood Pressure_Normal,Cholesterol Level_Low,Cholesterol Level_Normal
-Influenza,Yes,No,Yes,Yes,-2.0911596854159145,1,False,True,False,False,True
-Common Cold,No,Yes,Yes,No,-1.6319641756360355,1,False,False,True,False,True
-Eczema,No,Yes,Yes,No,-1.6319641756360355,1,False,False,True,False,True
-Asthma,Yes,Yes,No,Yes,-1.6319641756360355,1,True,False,True,False,True
-Asthma,Yes,Yes,No,Yes,-1.6319641756360355,1,True,False,True,False,True
-Eczema,Yes,No,No,No,-1.6319641756360355,1,False,False,True,False,True
-,Yes,Yes,Yes,Yes,-1.6319641756360355,0,False,False,True,False,True
-,Yes,Yes,Yes,Yes,-1.6319641756360355,0,False,False,True,False,True
-,No,Yes,No,No,-1.4023664207460962,0,False,False,True,False,True
-Hyperthyroidism,No,Yes,No,No,-1.4023664207460962,1,False,False,True,False,True
-Asthma,Yes,No,No,Yes,-1.4023664207460962,1,True,False,False,False,True
-Allergic Rhinitis,No,Yes,Yes,No,-1.325833835782783,1,False,False,True,True,False
-Anxiety Disorders,No,Yes,No,No,-1.325833835782783,1,False,False,True,False,False
-Common Cold,No,No,No,No,-1.325833835782783,1,False,True,False,False,True
-Diabetes,No,No,No,No,-1.325833835782783,1,True,True,False,False,True
-Gastroenteritis,No,Yes,No,No,-1.325833835782783,1,False,False,True,False,True
-Pancreatitis,Yes,No,No,No,-1.325833835782783,1,False,False,False,False,True
-Rheumatoid Arthritis,No,Yes,Yes,Yes,-1.325833835782783,1,False,False,False,False,False
-Depression,Yes,Yes,Yes,Yes,-1.325833835782783,1,True,False,False,False,True
-Liver Cancer,Yes,Yes,Yes,Yes,-1.325833835782783,1,False,False,True,False,True
-,Yes,Yes,Yes,Yes,-1.325833835782783,0,False,False,True,False,True
-,Yes,Yes,Yes,No,-1.325833835782783,0,True,False,False,False,False
-Dengue Fever,Yes,No,Yes,No,-1.2493012508194699,1,False,False,True,False,True
-Dengue Fever,Yes,No,Yes,No,-1.2493012508194699,1,False,False,True,False,True
-Eczema,No,Yes,Yes,No,-1.2493012508194699,1,True,False,False,False,False
-,Yes,Yes,Yes,No,-1.2493012508194699,0,True,False,False,False,False
-,Yes,Yes,Yes,Yes,-1.2493012508194699,0,True,False,False,False,True
-,No,No,Yes,No,-1.2493012508194699,0,True,False,True,False,True
-Migraine,Yes,No,No,No,-1.2493012508194699,1,False,False,True,False,True
-Migraine,No,Yes,Yes,No,-1.2493012508194699,1,False,False,True,False,True
-,No,No,Yes,No,-1.2493012508194699,0,True,False,False,False,False
-,No,Yes,Yes,No,-1.2493012508194699,0,True,False,True,False,True
-,Yes,Yes,No,No,-1.2493012508194699,0,False,False,True,False,True
-Ulcerative Colitis,No,Yes,Yes,No,-1.2493012508194699,1,False,False,True,False,True
-,Yes,Yes,No,Yes,-1.2493012508194699,0,False,False,True,False,True
-,Yes,Yes,No,Yes,-1.2493012508194699,0,False,False,True,False,True
-,Yes,Yes,Yes,Yes,-1.2493012508194699,0,False,False,True,False,True
-Bipolar Disorder,No,No,Yes,No,-1.2493012508194699,1,False,False,False,False,False
-Bronchitis,Yes,Yes,No,Yes,-1.2493012508194699,1,False,True,False,False,True
-,Yes,Yes,Yes,Yes,-1.2493012508194699,0,True,False,False,False,False
-Bronchitis,Yes,Yes,Yes,Yes,-1.2493012508194699,1,True,False,False,False,False
-Cerebral Palsy,No,No,Yes,Yes,-1.2493012508194699,1,False,False,True,False,True
-Colorectal Cancer,No,No,Yes,No,-1.2493012508194699,1,False,False,True,False,False
-Eczema,Yes,No,No,No,-1.2493012508194699,1,True,False,False,False,False
-Hypertensive Heart Disease,No,No,Yes,No,-1.2493012508194699,1,False,False,False,False,False
-Influenza,Yes,Yes,Yes,No,-1.2493012508194699,1,True,False,False,False,True
-,Yes,Yes,Yes,Yes,-1.2493012508194699,0,False,False,True,False,True
-Multiple Sclerosis,No,No,Yes,No,-1.2493012508194699,1,False,False,False,False,False
-Myocardial Infarction (Heart...,Yes,Yes,Yes,Yes,-1.2493012508194699,1,False,False,False,False,False
-Urinary Tract Infection (UTI),Yes,No,No,No,-1.2493012508194699,1,False,False,True,False,True
-Asthma,No,No,No,Yes,-1.1727686658561567,1,True,False,True,True,False
-,No,No,No,Yes,-1.1727686658561567,0,True,True,False,False,True
-,Yes,No,Yes,Yes,-1.1727686658561567,0,True,False,False,False,False
-Migraine,Yes,No,No,No,-1.1727686658561567,1,False,False,True,False,True
-Pneumonia,Yes,No,Yes,Yes,-1.0962360808928435,1,False,False,False,False,True
-,No,No,Yes,No,-0.8666383260029042,0,False,False,True,True,False
-Asthma,No,Yes,Yes,Yes,-0.8666383260029042,1,False,False,True,False,False
-Asthma,Yes,Yes,Yes,Yes,-0.8666383260029042,1,False,False,True,False,True
-Asthma,No,Yes,Yes,Yes,-0.8666383260029042,1,False,False,False,False,True
-Asthma,No,Yes,Yes,Yes,-0.8666383260029042,1,False,False,False,False,True
-Atherosclerosis,No,No,Yes,No,-0.8666383260029042,1,True,False,True,False,True
-Chronic Obstructive Pulmonary...,Yes,Yes,Yes,Yes,-0.8666383260029042,1,True,False,True,False,True
-Common Cold,Yes,Yes,Yes,No,-0.8666383260029042,1,True,False,False,False,True
-,No,Yes,No,No,-0.8666383260029042,0,True,False,False,False,True
-Epilepsy,No,No,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-,Yes,Yes,Yes,No,-0.8666383260029042,0,False,False,False,False,True
-,Yes,Yes,Yes,No,-0.8666383260029042,0,False,False,True,False,True
-Obsessive-Compulsive Disorde...,No,No,Yes,No,-0.8666383260029042,1,True,False,True,False,True
-Pneumonia,Yes,Yes,Yes,Yes,-0.8666383260029042,1,False,False,True,False,True
-Pneumonia,Yes,Yes,Yes,Yes,-0.8666383260029042,1,False,False,True,False,True
-Psoriasis,Yes,No,No,No,-0.8666383260029042,1,False,False,True,True,False
-,No,Yes,Yes,No,-0.8666383260029042,0,False,False,True,True,False
-,Yes,No,Yes,No,-0.8666383260029042,0,False,False,False,False,True
-Rubella,Yes,No,Yes,No,-0.8666383260029042,1,False,False,False,False,True
-,No,Yes,Yes,No,-0.8666383260029042,0,True,False,False,False,False
-Asthma,Yes,Yes,No,Yes,-0.8666383260029042,1,True,False,True,False,True
-Asthma,Yes,Yes,No,Yes,-0.8666383260029042,1,True,False,True,False,True
-Cirrhosis,No,No,Yes,No,-0.8666383260029042,1,False,False,True,False,False
-Conjunctivitis (Pink Eye),No,Yes,No,No,-0.8666383260029042,1,False,False,False,False,False
-Depression,No,No,Yes,No,-0.8666383260029042,1,False,False,True,False,False
-Gastroenteritis,Yes,No,Yes,Yes,-0.8666383260029042,1,True,True,False,False,False
-Hyperthyroidism,Yes,Yes,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Hyperthyroidism,Yes,Yes,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Kidney Cancer,No,No,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Liver Cancer,No,No,Yes,No,-0.8666383260029042,1,False,False,False,False,False
-Liver Disease,No,No,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Malaria,Yes,No,No,No,-0.8666383260029042,1,True,False,False,False,False
-Malaria,Yes,No,No,No,-0.8666383260029042,1,True,False,False,False,False
-Migraine,No,Yes,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Migraine,Yes,No,No,No,-0.8666383260029042,1,True,False,False,False,False
-,No,No,Yes,No,-0.8666383260029042,0,True,False,True,False,False
-Rheumatoid Arthritis,Yes,Yes,Yes,No,-0.8666383260029042,1,True,False,True,True,False
-,No,No,Yes,No,-0.8666383260029042,0,False,False,True,True,False
-,No,No,Yes,No,-0.8666383260029042,0,False,False,True,False,True
-Ulcerative Colitis,No,No,Yes,No,-0.8666383260029042,1,True,False,False,False,False
-Ulcerative Colitis,Yes,No,No,No,-0.8666383260029042,1,True,False,False,False,False
-Urinary Tract Infection,Yes,No,Yes,No,-0.8666383260029042,1,False,False,True,False,False
-Allergic Rhinitis,No,Yes,No,No,-0.6370405711129649,1,False,True,False,False,True
-Depression,No,No,No,No,-0.6370405711129649,1,False,False,True,False,False
-Gastroenteritis,No,No,No,No,-0.6370405711129649,1,True,False,True,True,False
-Influenza,No,No,No,No,-0.6370405711129649,1,True,False,True,False,True
-Kidney Disease,No,No,Yes,No,-0.6370405711129649,1,False,True,False,False,True
-Liver Cancer,Yes,Yes,No,No,-0.6370405711129649,1,False,False,False,False,True
-,No,Yes,No,Yes,-0.6370405711129649,0,True,True,False,False,True
-Osteoporosis,No,Yes,No,No,-0.6370405711129649,1,False,False,True,False,False
-Stroke,Yes,Yes,No,No,-0.6370405711129649,1,False,False,False,False,True
-Anxiety Disorders,Yes,No,Yes,Yes,-0.6370405711129649,1,True,False,False,False,False
-Diabetes,Yes,No,Yes,Yes,-0.6370405711129649,1,True,False,False,True,False
-,Yes,Yes,No,No,-0.6370405711129649,0,True,False,False,False,False
-,Yes,Yes,Yes,No,-0.6370405711129649,0,True,False,False,False,False
-Pneumonia,Yes,Yes,Yes,Yes,-0.6370405711129649,1,True,False,True,False,True
-Klinefelter Syndrome,No,No,Yes,No,-0.5605079861496517,1,False,False,True,False,True
-Acne,No,No,Yes,No,-0.4839754011863385,1,True,False,True,False,True
-Brain Tumor,No,No,Yes,No,-0.4839754011863385,1,True,False,True,False,True
-Bronchitis,No,Yes,No,Yes,-0.4839754011863385,1,False,False,True,False,True
-Cystic Fibrosis,No,No,Yes,Yes,-0.4839754011863385,1,True,False,False,False,False
-Diabetes,Yes,No,No,No,-0.4839754011863385,1,False,False,False,False,False
-Glaucoma,No,No,Yes,No,-0.4839754011863385,1,True,False,False,False,True
-Osteoarthritis,No,No,Yes,No,-0.4839754011863385,1,True,False,False,False,True
-Rabies,Yes,Yes,No,No,-0.4839754011863385,1,False,False,False,False,True
-Rabies,Yes,Yes,No,No,-0.4839754011863385,1,False,False,False,False,True
-Asthma,Yes,No,Yes,No,-0.4839754011863385,1,True,True,False,False,True
-Asthma,Yes,Yes,No,Yes,-0.4839754011863385,1,False,False,True,False,True
-Asthma,Yes,Yes,No,Yes,-0.4839754011863385,1,False,False,True,False,True
-Asthma,No,No,Yes,Yes,-0.4839754011863385,1,True,False,False,False,False
-Asthma,Yes,No,Yes,Yes,-0.4839754011863385,1,True,False,True,False,False
-Asthma,Yes,No,Yes,Yes,-0.4839754011863385,1,True,False,True,False,False
-Chickenpox,No,Yes,No,No,-0.4839754011863385,1,True,False,True,False,False
-Chickenpox,No,Yes,No,No,-0.4839754011863385,1,True,False,True,False,False
-,No,No,Yes,No,-0.4839754011863385,0,False,False,False,False,False
-,No,No,Yes,No,-0.4839754011863385,0,False,False,False,False,False
-Fibromyalgia,No,No,Yes,No,-0.4839754011863385,1,False,False,False,False,False
-Gastroenteritis,Yes,Yes,Yes,No,-0.4839754011863385,1,True,False,False,False,False
-Hemophilia,No,No,Yes,No,-0.4839754011863385,1,False,False,True,False,True
-,No,No,Yes,No,-0.4839754011863385,0,True,False,False,False,False
-Hypoglycemia,No,No,Yes,No,-0.4839754011863385,1,False,False,False,False,False
-Lymphoma,No,Yes,No,No,-0.4839754011863385,1,False,False,True,False,False
-Pneumonia,Yes,Yes,Yes,Yes,-0.4839754011863385,1,False,False,True,False,False
-Psoriasis,No,Yes,Yes,No,-0.4839754011863385,1,True,False,False,False,True
-Psoriasis,Yes,No,No,No,-0.4839754011863385,1,True,False,False,False,True
-Psoriasis,No,Yes,No,No,-0.4839754011863385,1,False,False,True,False,False
-Tuberculosis,Yes,Yes,Yes,Yes,-0.4839754011863385,1,True,False,False,False,False
-Tuberculosis,Yes,Yes,Yes,Yes,-0.4839754011863385,1,True,False,False,False,False
-Anxiety Disorders,No,No,No,No,-0.33091023125971225,1,True,True,False,False,True
-Common Cold,Yes,Yes,No,No,-0.33091023125971225,1,False,False,False,False,False
-,Yes,No,No,Yes,-0.33091023125971225,0,True,False,False,False,True
-Influenza,No,Yes,No,No,-0.33091023125971225,1,False,False,True,False,False
-,Yes,No,No,No,-0.33091023125971225,0,False,False,True,False,True
-Liver Cancer,Yes,No,Yes,Yes,-0.33091023125971225,1,True,False,True,True,False
-Liver Disease,Yes,No,No,Yes,-0.33091023125971225,1,False,False,True,False,True
-Lung Cancer,Yes,No,Yes,Yes,-0.33091023125971225,1,True,False,True,True,False
-,Yes,Yes,Yes,No,-0.33091023125971225,0,True,False,False,False,False
-Osteoarthritis,No,No,Yes,No,-0.33091023125971225,1,True,False,True,True,False
-Stroke,Yes,No,Yes,No,-0.33091023125971225,1,True,False,True,True,False
-,No,Yes,Yes,Yes,-0.33091023125971225,0,False,False,True,True,False
-Diabetes,Yes,Yes,Yes,No,-0.33091023125971225,1,True,False,False,False,True
-Hypothyroidism,Yes,Yes,Yes,No,-0.33091023125971225,1,False,False,False,False,False
-Hypothyroidism,Yes,Yes,Yes,No,-0.33091023125971225,1,False,False,False,False,False
-,Yes,No,Yes,No,-0.33091023125971225,0,False,False,False,True,False
-Pneumonia,No,Yes,Yes,Yes,-0.25437764629639914,1,False,False,False,False,True
-Allergic Rhinitis,No,Yes,Yes,No,-0.10131247636977286,1,True,False,False,False,True
-,No,No,Yes,No,-0.10131247636977286,0,True,False,True,False,True
-Crohn's Disease,Yes,No,Yes,No,-0.10131247636977286,1,True,False,False,False,True
-,Yes,No,Yes,No,-0.10131247636977286,0,False,False,False,False,False
-,Yes,No,Yes,No,-0.10131247636977286,0,False,False,False,False,False
-Hyperglycemia,No,No,Yes,No,-0.10131247636977286,1,True,False,True,False,True
-Kidney Cancer,No,Yes,Yes,Yes,-0.10131247636977286,1,True,False,True,True,False
-Kidney Disease,Yes,Yes,No,No,-0.10131247636977286,1,True,False,True,False,False
-Melanoma,Yes,No,Yes,No,-0.10131247636977286,1,True,False,False,False,True
-Migraine,No,No,No,No,-0.10131247636977286,1,False,True,False,False,True
-Ovarian Cancer,No,No,Yes,No,-0.10131247636977286,1,True,False,True,False,True
-Pancreatitis,No,Yes,Yes,Yes,-0.10131247636977286,1,True,False,True,True,False
-Rheumatoid Arthritis,Yes,No,No,No,-0.10131247636977286,1,True,False,True,False,True
-Stroke,No,No,Yes,No,-0.10131247636977286,1,True,False,True,False,True
-Turner Syndrome,No,No,Yes,No,-0.10131247636977286,1,True,False,False,False,False
-,No,No,Yes,No,-0.10131247636977286,0,True,False,False,False,False
-Urinary Tract Infection,No,No,No,No,-0.10131247636977286,1,False,True,False,False,True
-Zika Virus,No,Yes,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-Zika Virus,No,Yes,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-Allergic Rhinitis,Yes,Yes,Yes,No,-0.10131247636977286,1,True,False,False,False,True
-,Yes,Yes,Yes,No,-0.10131247636977286,0,True,False,False,False,True
-Asthma,Yes,Yes,No,Yes,-0.10131247636977286,1,True,False,True,False,True
-Asthma,Yes,Yes,No,Yes,-0.10131247636977286,1,True,False,True,False,True
-,No,No,Yes,No,-0.10131247636977286,0,False,False,True,False,False
-Crohn's Disease,No,No,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-,Yes,Yes,Yes,No,-0.10131247636977286,0,False,False,False,False,False
-Depression,No,No,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-,Yes,No,Yes,No,-0.10131247636977286,0,False,False,False,False,False
-Diabetes,No,Yes,Yes,No,-0.10131247636977286,1,True,False,True,False,False
-Hypertension,Yes,No,Yes,No,-0.10131247636977286,1,True,False,True,False,False
-Hypothyroidism,No,No,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-Liver Disease,Yes,Yes,Yes,No,-0.10131247636977286,1,False,False,True,False,False
-,Yes,No,No,No,-0.10131247636977286,0,False,False,False,False,False
-Multiple Sclerosis,Yes,No,No,No,-0.10131247636977286,1,False,False,False,False,False
-Osteoarthritis,Yes,No,Yes,Yes,-0.10131247636977286,1,True,False,False,False,True
-Osteoporosis,Yes,Yes,Yes,No,-0.10131247636977286,1,False,False,True,False,False
-Pneumocystis Pneumonia (PCP),Yes,Yes,Yes,No,-0.10131247636977286,1,False,False,False,False,False
-Pneumonia,Yes,Yes,Yes,Yes,-0.10131247636977286,1,True,False,False,False,False
-Scoliosis,No,No,No,No,-0.10131247636977286,1,False,False,False,False,False
-,No,No,Yes,No,-0.10131247636977286,0,False,False,True,False,True
-Tetanus,No,No,Yes,No,-0.10131247636977286,1,True,False,True,False,False
-Tetanus,No,No,Yes,No,-0.10131247636977286,1,True,False,True,False,False
-Hypertension,No,No,No,No,0.12828527852016655,1,False,True,False,False,False
-,No,No,Yes,No,0.12828527852016655,0,True,False,True,False,False
-Hypothyroidism,No,No,Yes,No,0.12828527852016655,1,True,False,True,False,False
-Allergic Rhinitis,Yes,No,No,No,0.2813504484467928,1,True,False,False,False,False
-,No,No,Yes,No,0.2813504484467928,0,True,False,True,False,True
-Anxiety Disorders,No,No,Yes,No,0.2813504484467928,1,True,False,True,False,True
-,Yes,No,Yes,Yes,0.2813504484467928,0,False,False,False,False,False
-,Yes,No,Yes,Yes,0.2813504484467928,0,False,False,False,False,False
-Crohn's Disease,Yes,Yes,Yes,No,0.2813504484467928,1,True,False,True,False,False
-,No,No,Yes,No,0.2813504484467928,0,True,False,True,False,False
-Depression,No,Yes,Yes,No,0.2813504484467928,1,False,True,False,True,False
-,No,Yes,No,No,0.2813504484467928,0,True,False,True,False,False
-Endometriosis,Yes,No,No,No,0.2813504484467928,1,True,False,False,False,True
-Hypertension,No,Yes,No,No,0.2813504484467928,1,False,False,True,True,False
-Hypothyroidism,Yes,Yes,Yes,No,0.2813504484467928,1,True,False,True,False,False
-Kidney Cancer,No,Yes,No,No,0.2813504484467928,1,True,True,False,False,False
-Kidney Disease,No,Yes,No,Yes,0.2813504484467928,1,True,False,True,False,True
-Pancreatitis,No,Yes,No,No,0.2813504484467928,1,True,True,False,False,False
-,No,Yes,No,No,0.2813504484467928,0,False,True,False,False,True
-Sepsis,Yes,Yes,Yes,No,0.2813504484467928,1,True,False,True,False,True
-Sleep Apnea,Yes,No,Yes,Yes,0.2813504484467928,1,True,False,False,False,False
-Urinary Tract Infection,Yes,Yes,No,Yes,0.2813504484467928,1,True,False,False,False,True
-Asthma,Yes,Yes,Yes,Yes,0.2813504484467928,1,False,False,True,False,False
-,Yes,Yes,Yes,Yes,0.2813504484467928,0,True,False,False,False,False
-Down Syndrome,No,No,Yes,No,0.2813504484467928,1,False,False,False,False,False
-Ebola Virus,Yes,Yes,Yes,Yes,0.2813504484467928,1,True,False,True,False,True
-Ebola Virus,Yes,Yes,Yes,Yes,0.2813504484467928,1,True,False,True,False,True
-,No,Yes,No,No,0.2813504484467928,0,False,False,False,False,False
-Gastroenteritis,Yes,Yes,Yes,Yes,0.2813504484467928,1,False,False,False,False,True
-Klinefelter Syndrome,No,No,Yes,No,0.2813504484467928,1,False,False,True,False,True
-Liver Cancer,No,Yes,Yes,Yes,0.2813504484467928,1,True,False,False,False,False
-Lyme Disease,Yes,No,No,No,0.2813504484467928,1,True,False,True,False,False
-Lyme Disease,Yes,No,No,No,0.2813504484467928,1,True,False,True,False,False
-Pancreatic Cancer,No,No,Yes,No,0.2813504484467928,1,False,False,False,False,False
-,No,No,Yes,Yes,0.2813504484467928,0,False,False,False,False,False
-,No,Yes,Yes,Yes,0.2813504484467928,0,True,False,False,False,False
-,No,Yes,Yes,No,0.2813504484467928,0,False,False,True,False,False
-,Yes,Yes,No,No,0.4344156183734191,0,True,False,True,True,False
-Multiple Sclerosis,No,Yes,Yes,No,0.4344156183734191,1,True,False,True,False,True
-Multiple Sclerosis,No,Yes,Yes,No,0.4344156183734191,1,True,False,True,False,True
-Appendicitis,Yes,No,Yes,No,0.6640133732633585,1,True,False,True,False,True
-,No,No,Yes,Yes,0.6640133732633585,0,True,False,False,False,False
-,Yes,Yes,Yes,Yes,0.6640133732633585,0,True,False,False,False,True
-Common Cold,Yes,No,Yes,Yes,0.6640133732633585,1,True,False,True,True,False
-Diabetes,No,Yes,No,No,0.6640133732633585,1,False,False,True,False,False
-Esophageal Cancer,No,No,Yes,No,0.6640133732633585,1,True,False,True,False,True
-,Yes,No,No,No,0.6640133732633585,0,False,False,False,False,False
-HIV/AIDS,Yes,No,No,No,0.6640133732633585,1,False,False,False,False,False
-,No,Yes,No,No,0.6640133732633585,0,False,False,True,True,False
-Liver Disease,No,Yes,Yes,No,0.6640133732633585,1,True,False,False,True,False
-Marfan Syndrome,No,No,Yes,No,0.6640133732633585,1,True,False,False,False,False
-Migraine,No,Yes,Yes,Yes,0.6640133732633585,1,False,False,True,True,False
-,No,No,Yes,No,0.6640133732633585,0,True,False,False,False,True
-Parkinson's Disease,No,No,Yes,No,0.6640133732633585,1,False,False,True,True,False
-Parkinson's Disease,No,No,Yes,No,0.6640133732633585,1,False,False,True,True,False
-Anxiety Disorders,Yes,Yes,No,No,0.6640133732633585,1,False,False,True,True,False
-,No,No,Yes,No,0.6640133732633585,0,False,False,True,False,True
-Coronary Artery Disease,No,No,Yes,No,0.6640133732633585,1,False,False,True,False,True
-Hemorrhoids,No,No,No,No,0.6640133732633585,1,False,False,False,False,False
-,Yes,No,Yes,No,0.6640133732633585,0,True,False,False,False,True
-Hypothyroidism,No,No,Yes,No,0.6640133732633585,1,False,False,False,False,False
-Osteoarthritis,Yes,Yes,No,No,0.6640133732633585,1,False,False,False,False,False
-Osteoporosis,Yes,No,Yes,Yes,0.6640133732633585,1,True,False,False,True,False
-Osteoporosis,No,Yes,Yes,No,0.6640133732633585,1,False,False,True,False,True
-,Yes,No,Yes,No,0.6640133732633585,0,False,False,True,False,True
-Osteoporosis,Yes,No,Yes,No,0.6640133732633585,1,False,False,True,False,True
-,Yes,Yes,No,No,0.6640133732633585,0,False,False,True,False,True
-,No,Yes,Yes,No,0.6640133732633585,0,False,False,False,False,False
-Typhoid Fever,No,Yes,No,No,0.6640133732633585,1,True,False,True,True,False
-Typhoid Fever,No,Yes,No,No,0.6640133732633585,1,True,False,True,True,False
-Influenza,Yes,Yes,Yes,Yes,0.7405459582266716,1,True,False,False,False,False
-Pneumonia,Yes,Yes,No,Yes,0.8170785431899847,1,True,False,True,False,False
-Breast Cancer,No,No,Yes,No,1.0466762980799242,1,True,False,False,False,False
-,Yes,Yes,No,No,1.0466762980799242,0,True,False,False,False,False
-Coronary Artery Disease,Yes,Yes,No,No,1.0466762980799242,1,True,False,False,False,False
-,No,No,Yes,No,1.0466762980799242,0,True,False,True,False,True
-Measles,Yes,Yes,No,No,1.0466762980799242,1,False,False,False,False,True
-Measles,Yes,Yes,No,No,1.0466762980799242,1,False,False,False,False,True
-,No,Yes,No,Yes,1.0466762980799242,0,False,False,True,False,True
-Osteomyelitis,No,No,Yes,No,1.0466762980799242,1,True,False,True,False,True
-,Yes,No,No,No,1.0466762980799242,0,True,False,False,False,False
-Osteoporosis,No,Yes,No,No,1.0466762980799242,1,True,False,False,False,False
-Osteoporosis,No,Yes,No,No,1.0466762980799242,1,True,False,False,False,False
-,Yes,Yes,Yes,No,1.0466762980799242,0,True,False,True,False,True
-Asthma,Yes,Yes,Yes,Yes,1.0466762980799242,1,False,False,False,False,False
-,No,No,Yes,No,1.0466762980799242,0,False,False,True,False,False
-Hemophilia,No,No,Yes,No,1.0466762980799242,1,False,False,True,False,True
-Hepatitis B,No,Yes,Yes,No,1.0466762980799242,1,True,False,True,True,False
-,No,Yes,Yes,No,1.0466762980799242,0,True,False,True,True,False
-,No,No,Yes,No,1.0466762980799242,0,False,False,False,False,True
-Hypertension,Yes,No,Yes,No,1.0466762980799242,1,True,False,False,False,True
-Hypertension,No,No,No,No,1.0466762980799242,1,False,False,False,False,False
-Kidney Cancer,Yes,Yes,Yes,No,1.0466762980799242,1,False,False,False,False,True
-,Yes,Yes,Yes,Yes,1.0466762980799242,0,False,False,False,False,False
-Osteoporosis,Yes,No,Yes,No,1.0466762980799242,1,True,False,False,False,True
-,Yes,Yes,Yes,No,1.0466762980799242,0,False,False,False,False,True
-Parkinson's Disease,Yes,Yes,No,No,1.0466762980799242,1,True,False,False,False,True
-Parkinson's Disease,Yes,Yes,No,No,1.0466762980799242,1,True,False,False,False,True
-,No,No,Yes,No,1.0466762980799242,0,False,False,True,False,True
-Rheumatoid Arthritis,No,No,Yes,No,1.0466762980799242,1,False,False,False,False,False
-,No,No,Yes,No,1.0466762980799242,0,False,False,False,False,False
-,Yes,Yes,Yes,No,1.0466762980799242,0,False,False,False,False,False
-,No,No,Yes,No,1.4293392228964898,0,True,False,True,False,True
-Diabetes,No,No,Yes,No,1.4293392228964898,1,True,False,True,False,False
-Otitis Media (Ear Infection),Yes,Yes,Yes,No,1.4293392228964898,1,True,False,True,False,True
-Stroke,Yes,No,Yes,No,1.4293392228964898,1,False,False,False,True,False
-Stroke,Yes,No,Yes,No,1.4293392228964898,1,False,False,False,True,False
-Tourette Syndrome,No,No,Yes,No,1.4293392228964898,1,True,False,False,False,False
-Urinary Tract Infection (UTI),Yes,No,Yes,No,1.4293392228964898,1,True,False,False,False,True
-,No,Yes,No,No,1.4293392228964898,0,True,False,True,False,False
-Alzheimer's Disease,No,Yes,No,No,1.4293392228964898,1,True,False,True,False,False
-,No,No,Yes,No,1.4293392228964898,0,False,False,False,False,False
-Bronchitis,Yes,No,Yes,Yes,1.4293392228964898,1,True,False,False,False,False
-,Yes,No,Yes,Yes,1.4293392228964898,0,False,False,False,False,False
-,Yes,No,Yes,Yes,1.4293392228964898,0,False,False,False,False,False
-Dementia,No,No,Yes,No,1.4293392228964898,1,False,False,False,False,False
-,Yes,Yes,Yes,No,1.4293392228964898,0,False,False,True,False,False
-,No,No,Yes,No,1.4293392228964898,0,False,False,False,False,False
-Liver Cancer,Yes,Yes,Yes,No,1.4293392228964898,1,False,False,False,False,False
-Lung Cancer,Yes,Yes,Yes,No,1.4293392228964898,1,False,False,False,False,False
-,Yes,No,Yes,No,1.4293392228964898,0,False,False,True,False,False
-Mumps,No,No,Yes,No,1.4293392228964898,1,True,False,True,False,False
-Mumps,No,No,Yes,No,1.4293392228964898,1,True,False,True,False,False
-,No,Yes,Yes,No,1.4293392228964898,0,False,False,False,False,False
-,Yes,Yes,Yes,No,1.4293392228964898,0,False,False,False,False,False
-,Yes,No,Yes,No,1.8120021477130555,0,False,False,False,False,True
-,Yes,No,Yes,No,1.8120021477130555,0,False,False,False,False,True
-Cholecystitis,No,No,Yes,No,1.8120021477130555,1,True,False,True,False,True
-Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,1.8120021477130555,1,True,False,True,False,False
-,No,Yes,Yes,Yes,1.8120021477130555,0,True,False,True,False,False
-,Yes,No,No,No,1.8120021477130555,0,True,False,True,False,True
-Parkinson's Disease,No,No,Yes,No,1.8120021477130555,1,True,False,True,False,True
-Prostate Cancer,Yes,Yes,No,No,1.8120021477130555,1,True,False,False,False,True
-,No,Yes,Yes,No,1.8120021477130555,0,True,False,True,False,True
-Gout,Yes,No,Yes,No,1.8120021477130555,1,False,False,True,False,False
-Migraine,No,No,Yes,No,1.8120021477130555,1,False,False,True,False,True
-Stroke,No,Yes,No,No,1.8120021477130555,1,True,False,True,False,False
-,No,Yes,No,No,1.8120021477130555,0,True,False,True,False,False
-Testicular Cancer,No,No,Yes,No,1.8120021477130555,1,False,False,False,False,False
-Tonsillitis,Yes,Yes,Yes,No,1.8120021477130555,1,False,False,False,False,False
-,No,No,Yes,No,1.8120021477130555,0,False,False,True,False,True
-Stroke,Yes,No,Yes,No,2.577327997346187,1,False,False,False,False,False
-Stroke,Yes,No,Yes,No,2.577327997346187,1,False,False,False,False,False
-Stroke,Yes,No,Yes,No,2.9599909221627527,1,True,False,False,False,False
-,Yes,No,Yes,No,2.9599909221627527,0,True,False,False,False,False
-Stroke,Yes,No,Yes,No,3.342653846979318,1,False,False,False,False,False
-,Yes,No,Yes,No,3.342653846979318,0,False,False,False,False,False
+Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,Gender,is_labeled,Blood Pressure_High,Blood Pressure_Low,Blood Pressure_Normal,Cholesterol Level_High,Cholesterol Level_Low,Cholesterol Level_Normal
+50.0,1,0,1,1,-2.0911596854159145,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+,0,1,1,0,-1.6319641756360355,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+33.0,0,1,1,0,-1.6319641756360355,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,0,1,-1.6319641756360355,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,0,1,-1.6319641756360355,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+33.0,1,0,0,0,-1.6319641756360355,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+50.0,1,1,1,1,-1.6319641756360355,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+50.0,1,1,1,1,-1.6319641756360355,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+47.0,0,1,0,0,-1.4023664207460962,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+47.0,0,1,0,0,-1.4023664207460962,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,0,0,1,-1.4023664207460962,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+1.0,0,1,1,0,-1.325833835782783,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+4.0,0,1,0,0,-1.325833835782783,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+22.0,0,0,0,0,-1.325833835782783,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+,0,0,0,0,-1.325833835782783,1,0,0.0,1.0,0.0,0.0,0.0,1.0
+38.0,0,1,0,0,-1.325833835782783,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+72.0,1,0,0,0,-1.325833835782783,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+82.0,0,1,1,1,-1.325833835782783,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+29.0,1,1,1,1,-1.325833835782783,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+54.0,1,1,1,1,-1.325833835782783,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+91.0,1,1,1,1,-1.325833835782783,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+102.0,1,1,1,0,-1.325833835782783,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+28.0,1,0,1,0,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+28.0,1,0,1,0,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+33.0,0,1,1,0,-1.2493012508194699,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,1,0,-1.2493012508194699,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+43.0,1,1,1,1,-1.2493012508194699,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+51.0,0,0,1,0,-1.2493012508194699,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+61.0,1,0,0,0,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+61.0,0,1,1,0,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+64.0,0,0,1,0,-1.2493012508194699,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+88.0,0,1,1,0,-1.2493012508194699,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,0,0,-1.2493012508194699,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+,0,1,1,0,-1.2493012508194699,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,0,1,-1.2493012508194699,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,0,1,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,1,1,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+9.0,0,0,1,0,-1.2493012508194699,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+13.0,1,1,0,1,-1.2493012508194699,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+13.0,1,1,1,1,-1.2493012508194699,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+13.0,1,1,1,1,-1.2493012508194699,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+14.0,0,0,1,1,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+21.0,0,0,1,0,-1.2493012508194699,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+33.0,1,0,0,0,-1.2493012508194699,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+46.0,0,0,1,0,-1.2493012508194699,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+50.0,1,1,1,0,-1.2493012508194699,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+50.0,1,1,1,1,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+62.0,0,0,1,0,-1.2493012508194699,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+65.0,1,1,1,1,-1.2493012508194699,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+103.0,1,0,0,0,-1.2493012508194699,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,0,1,-1.1727686658561567,1,0,0.0,0.0,1.0,0.0,1.0,0.0
+69.0,0,0,0,1,-1.1727686658561567,1,1,0.0,1.0,0.0,0.0,0.0,1.0
+22.0,1,0,1,1,-1.1727686658561567,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+61.0,1,0,0,0,-1.1727686658561567,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+75.0,1,0,1,1,-1.0962360808928435,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+,0,0,1,0,-0.8666383260029042,0,0,0.0,0.0,1.0,0.0,1.0,0.0
+6.0,0,1,1,1,-0.8666383260029042,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+6.0,1,1,1,1,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,0,1,1,1,-0.8666383260029042,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+6.0,0,1,1,1,-0.8666383260029042,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+7.0,0,0,1,0,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+19.0,1,1,1,1,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+22.0,1,1,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+33.0,0,1,0,0,-0.8666383260029042,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+35.0,0,0,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+45.0,1,1,1,0,-0.8666383260029042,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+47.0,1,1,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+66.0,0,0,1,0,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+75.0,1,1,1,1,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+75.0,1,1,1,1,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,0,0,0,-0.8666383260029042,0,0,0.0,0.0,1.0,0.0,1.0,0.0
+,0,1,1,0,-0.8666383260029042,0,0,0.0,0.0,1.0,0.0,1.0,0.0
+,1,0,1,0,-0.8666383260029042,0,0,1.0,0.0,0.0,0.0,0.0,1.0
+83.0,1,0,1,0,-0.8666383260029042,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+103.0,0,1,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+6.0,1,1,0,1,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,0,1,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+20.0,0,0,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+23.0,0,1,0,0,-0.8666383260029042,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+29.0,0,0,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+38.0,1,0,1,1,-0.8666383260029042,1,1,0.0,1.0,0.0,1.0,0.0,0.0
+47.0,1,1,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,1,0,-0.8666383260029042,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,-0.8666383260029042,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,-0.8666383260029042,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+55.0,0,0,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,0,0,-0.8666383260029042,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+59.0,1,0,0,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+61.0,0,1,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+61.0,1,0,0,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+72.0,0,0,1,0,-0.8666383260029042,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+82.0,1,1,1,0,-0.8666383260029042,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+82.0,0,0,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+90.0,0,0,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+101.0,0,0,1,0,-0.8666383260029042,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,0,0,-0.8666383260029042,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+102.0,1,0,1,0,-0.8666383260029042,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+1.0,0,1,0,0,-0.6370405711129649,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+29.0,0,0,0,0,-0.6370405711129649,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+38.0,0,0,0,0,-0.6370405711129649,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+50.0,0,0,0,0,-0.6370405711129649,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+52.0,0,0,1,0,-0.6370405711129649,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+54.0,1,1,0,0,-0.6370405711129649,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+55.0,0,1,0,1,-0.6370405711129649,1,1,0.0,1.0,0.0,0.0,0.0,1.0
+69.0,0,1,0,0,-0.6370405711129649,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+91.0,1,1,0,0,-0.6370405711129649,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+4.0,1,0,1,1,-0.6370405711129649,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+30.0,1,0,1,1,-0.6370405711129649,1,1,1.0,0.0,0.0,0.0,1.0,0.0
+61.0,1,1,0,0,-0.6370405711129649,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+67.0,1,1,1,0,-0.6370405711129649,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+75.0,1,1,1,1,-0.6370405711129649,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+53.0,0,0,1,0,-0.5605079861496517,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+0.0,0,0,1,0,-0.4839754011863385,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+11.0,0,0,1,0,-0.4839754011863385,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+13.0,0,1,0,1,-0.4839754011863385,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+26.0,0,0,1,1,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+30.0,1,0,0,0,-0.4839754011863385,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+39.0,0,0,1,0,-0.4839754011863385,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+67.0,0,0,1,0,-0.4839754011863385,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+81.0,1,1,0,0,-0.4839754011863385,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+81.0,1,1,0,0,-0.4839754011863385,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+6.0,1,0,1,0,-0.4839754011863385,1,1,0.0,1.0,0.0,0.0,0.0,1.0
+6.0,1,1,0,1,-0.4839754011863385,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,0,1,-0.4839754011863385,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,0,0,1,1,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+6.0,1,0,1,1,-0.4839754011863385,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+6.0,1,0,1,1,-0.4839754011863385,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+15.0,0,1,0,0,-0.4839754011863385,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+15.0,0,1,0,0,-0.4839754011863385,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,-0.4839754011863385,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+31.0,0,0,1,0,-0.4839754011863385,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+37.0,0,0,1,0,-0.4839754011863385,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+38.0,1,1,1,0,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+42.0,0,0,1,0,-0.4839754011863385,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+47.0,0,0,1,0,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+48.0,0,0,1,0,-0.4839754011863385,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+58.0,0,1,0,0,-0.4839754011863385,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+75.0,1,1,1,1,-0.4839754011863385,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+80.0,0,1,1,0,-0.4839754011863385,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+80.0,1,0,0,0,-0.4839754011863385,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+,0,1,0,0,-0.4839754011863385,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+98.0,1,1,1,1,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+98.0,1,1,1,1,-0.4839754011863385,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+4.0,0,0,0,0,-0.33091023125971225,1,1,0.0,1.0,0.0,0.0,0.0,1.0
+22.0,1,1,0,0,-0.33091023125971225,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+29.0,1,0,0,1,-0.33091023125971225,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+,0,1,0,0,-0.33091023125971225,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+,1,0,0,0,-0.33091023125971225,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+54.0,1,0,1,1,-0.33091023125971225,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+55.0,1,0,0,1,-0.33091023125971225,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+56.0,1,0,1,1,-0.33091023125971225,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+,1,1,1,0,-0.33091023125971225,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+67.0,0,0,1,0,-0.33091023125971225,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+91.0,1,0,1,0,-0.33091023125971225,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+102.0,0,1,1,1,-0.33091023125971225,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+30.0,1,1,1,0,-0.33091023125971225,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+49.0,1,1,1,0,-0.33091023125971225,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+49.0,1,1,1,0,-0.33091023125971225,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,1,0,-0.33091023125971225,0,0,1.0,0.0,0.0,0.0,1.0,0.0
+75.0,0,1,1,1,-0.25437764629639914,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+1.0,0,1,1,0,-0.10131247636977286,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+8.0,0,0,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+25.0,1,0,1,0,-0.10131247636977286,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+43.0,1,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+43.0,1,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,-0.10131247636977286,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+51.0,0,1,1,1,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+52.0,1,1,0,0,-0.10131247636977286,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+,1,0,1,0,-0.10131247636977286,1,0,1.0,0.0,0.0,0.0,0.0,1.0
+61.0,0,0,0,0,-0.10131247636977286,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+71.0,0,0,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+72.0,0,1,1,1,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+,1,0,0,0,-0.10131247636977286,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+91.0,0,0,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+99.0,0,0,1,0,-0.10131247636977286,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,-0.10131247636977286,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+102.0,0,0,0,0,-0.10131247636977286,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+105.0,0,1,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+105.0,0,1,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+1.0,1,1,1,0,-0.10131247636977286,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+,1,1,1,0,-0.10131247636977286,1,0,1.0,0.0,0.0,0.0,0.0,1.0
+6.0,1,1,0,1,-0.10131247636977286,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,0,1,-0.10131247636977286,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,1,0,-0.10131247636977286,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+25.0,0,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+25.0,1,1,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+29.0,0,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+30.0,1,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+30.0,0,1,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+45.0,1,0,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+49.0,0,0,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,1,0,-0.10131247636977286,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+,1,0,0,0,-0.10131247636977286,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+62.0,1,0,0,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+67.0,1,0,1,1,-0.10131247636977286,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+69.0,1,1,1,0,-0.10131247636977286,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+74.0,1,1,1,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,1,1,-0.10131247636977286,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+85.0,0,0,0,0,-0.10131247636977286,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+87.0,0,0,1,0,-0.10131247636977286,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,1,0,-0.10131247636977286,1,0,0.0,0.0,1.0,1.0,0.0,0.0
+94.0,0,0,1,0,-0.10131247636977286,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+45.0,0,0,0,0,0.12828527852016655,0,1,0.0,1.0,0.0,1.0,0.0,0.0
+49.0,0,0,1,0,0.12828527852016655,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+49.0,0,0,1,0,0.12828527852016655,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+1.0,1,0,0,0,0.2813504484467928,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+3.0,0,0,1,0,0.2813504484467928,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+4.0,0,0,1,0,0.2813504484467928,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+17.0,1,0,1,1,0.2813504484467928,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+17.0,1,0,1,1,0.2813504484467928,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+25.0,1,1,1,0,0.2813504484467928,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,0.2813504484467928,1,0,0.0,0.0,1.0,1.0,0.0,0.0
+29.0,0,1,1,0,0.2813504484467928,0,1,0.0,1.0,0.0,0.0,1.0,0.0
+,0,1,0,0,0.2813504484467928,1,0,0.0,0.0,1.0,1.0,0.0,0.0
+34.0,1,0,0,0,0.2813504484467928,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+45.0,0,1,0,0,0.2813504484467928,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+49.0,1,1,1,0,0.2813504484467928,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+51.0,0,1,0,0,0.2813504484467928,1,1,0.0,1.0,0.0,1.0,0.0,0.0
+52.0,0,1,0,1,0.2813504484467928,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+72.0,0,1,0,0,0.2813504484467928,1,1,0.0,1.0,0.0,1.0,0.0,0.0
+82.0,0,1,0,0,0.2813504484467928,0,1,0.0,1.0,0.0,0.0,0.0,1.0
+86.0,1,1,1,0,0.2813504484467928,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+89.0,1,0,1,1,0.2813504484467928,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+102.0,1,1,0,1,0.2813504484467928,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+,1,1,1,1,0.2813504484467928,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+,1,1,1,1,0.2813504484467928,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,0.2813504484467928,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+32.0,1,1,1,1,0.2813504484467928,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,1,1,0.2813504484467928,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+33.0,0,1,0,0,0.2813504484467928,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+38.0,1,1,1,1,0.2813504484467928,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+53.0,0,0,1,0,0.2813504484467928,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+54.0,0,1,1,1,0.2813504484467928,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+57.0,1,0,0,0,0.2813504484467928,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+57.0,1,0,0,0,0.2813504484467928,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,0.2813504484467928,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+76.0,0,0,1,1,0.2813504484467928,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,0,1,1,1,0.2813504484467928,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+101.0,0,1,1,0,0.2813504484467928,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+45.0,1,1,0,0,0.4344156183734191,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+62.0,0,1,1,0,0.4344156183734191,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,0,1,1,0,0.4344156183734191,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+5.0,1,0,1,0,0.6640133732633585,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,1,1,0.6640133732633585,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+13.0,1,1,1,1,0.6640133732633585,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+22.0,1,0,1,1,0.6640133732633585,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+,0,1,0,0,0.6640133732633585,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+36.0,0,0,1,0,0.6640133732633585,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+41.0,1,0,0,0,0.6640133732633585,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,0,0,0.6640133732633585,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+45.0,0,1,0,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+55.0,0,1,1,0,0.6640133732633585,1,1,1.0,0.0,0.0,0.0,1.0,0.0
+60.0,0,0,1,0,0.6640133732633585,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+61.0,0,1,1,1,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+69.0,0,0,1,0,0.6640133732633585,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+73.0,0,0,1,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+73.0,0,0,1,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,1.0,0.0
+,1,1,0,0,0.6640133732633585,0,0,0.0,0.0,1.0,0.0,1.0,0.0
+,0,0,1,0,0.6640133732633585,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,1,0,0.6640133732633585,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+,0,0,0,0,0.6640133732633585,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+45.0,1,0,1,0,0.6640133732633585,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+49.0,0,0,1,0,0.6640133732633585,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+67.0,1,1,0,0,0.6640133732633585,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+69.0,1,0,1,1,0.6640133732633585,1,1,1.0,0.0,0.0,0.0,1.0,0.0
+,0,1,1,0,0.6640133732633585,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+69.0,1,0,1,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+69.0,1,0,1,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+78.0,1,1,0,0,0.6640133732633585,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+92.0,0,1,1,0,0.6640133732633585,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+100.0,0,1,0,0,0.6640133732633585,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+100.0,0,1,0,0,0.6640133732633585,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+,1,1,1,1,0.7405459582266716,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,0,1,0.8170785431899847,1,0,0.0,0.0,1.0,1.0,0.0,0.0
+12.0,0,0,1,0,1.0466762980799242,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+24.0,1,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+24.0,1,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+47.0,0,0,1,0,1.0466762980799242,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,0,0,1.0466762980799242,0,0,1.0,0.0,0.0,0.0,0.0,1.0
+,1,1,0,0,1.0466762980799242,0,0,1.0,0.0,0.0,0.0,0.0,1.0
+,0,1,0,1,1.0466762980799242,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+68.0,0,0,1,0,1.0466762980799242,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,0,0,0,1.0466762980799242,1,0,1.0,0.0,0.0,1.0,0.0,0.0
+69.0,0,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+69.0,0,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+77.0,1,1,1,0,1.0466762980799242,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+6.0,1,1,1,1,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,0,0,1,0,1.0466762980799242,0,0,0.0,0.0,1.0,1.0,0.0,0.0
+42.0,0,0,1,0,1.0466762980799242,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+44.0,0,1,1,0,1.0466762980799242,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+44.0,0,1,1,0,1.0466762980799242,1,1,0.0,0.0,1.0,0.0,1.0,0.0
+45.0,0,0,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+,1,0,1,0,1.0466762980799242,1,0,1.0,0.0,0.0,0.0,0.0,1.0
+45.0,0,0,0,0,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+51.0,1,1,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+52.0,1,1,1,1,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+69.0,1,0,1,0,1.0466762980799242,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+72.0,1,1,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+73.0,1,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+73.0,1,1,0,0,1.0466762980799242,1,1,1.0,0.0,0.0,0.0,0.0,1.0
+79.0,0,0,1,0,1.0466762980799242,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+82.0,0,0,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+95.0,0,0,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+98.0,1,1,1,0,1.0466762980799242,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+10.0,0,0,1,0,1.4293392228964898,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+30.0,0,0,1,0,1.4293392228964898,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+70.0,1,1,1,0,1.4293392228964898,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+91.0,1,0,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,0.0,1.0,0.0
+,1,0,1,0,1.4293392228964898,0,0,1.0,0.0,0.0,0.0,1.0,0.0
+97.0,0,0,1,0,1.4293392228964898,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,1,0,1.4293392228964898,1,0,1.0,0.0,0.0,0.0,0.0,1.0
+2.0,0,1,0,0,1.4293392228964898,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+2.0,0,1,0,0,1.4293392228964898,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+2.0,0,0,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+13.0,1,0,1,1,1.4293392228964898,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+18.0,1,0,1,1,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+18.0,1,0,1,1,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+27.0,0,0,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+30.0,1,1,1,0,1.4293392228964898,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,1.4293392228964898,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+,1,1,1,0,1.4293392228964898,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+56.0,1,1,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+56.0,1,0,1,0,1.4293392228964898,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,1.4293392228964898,1,0,0.0,0.0,1.0,1.0,0.0,0.0
+63.0,0,0,1,0,1.4293392228964898,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+69.0,0,1,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+91.0,1,1,1,0,1.4293392228964898,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+2.0,1,0,1,0,1.8120021477130555,0,1,1.0,0.0,0.0,0.0,0.0,1.0
+,1,0,1,0,1.8120021477130555,0,0,1.0,0.0,0.0,0.0,0.0,1.0
+16.0,0,0,1,0,1.8120021477130555,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+18.0,0,1,1,1,1.8120021477130555,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+18.0,0,1,1,1,1.8120021477130555,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+,1,0,0,0,1.8120021477130555,1,0,0.0,0.0,1.0,0.0,0.0,1.0
+73.0,0,0,1,0,1.8120021477130555,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+,1,1,0,0,1.8120021477130555,1,0,1.0,0.0,0.0,0.0,0.0,1.0
+84.0,0,1,1,0,1.8120021477130555,1,1,0.0,0.0,1.0,0.0,0.0,1.0
+40.0,1,0,1,0,1.8120021477130555,0,1,0.0,0.0,1.0,1.0,0.0,0.0
+,0,0,1,0,1.8120021477130555,0,0,0.0,0.0,1.0,0.0,0.0,1.0
+91.0,0,1,0,0,1.8120021477130555,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+91.0,0,1,0,0,1.8120021477130555,1,1,0.0,0.0,1.0,1.0,0.0,0.0
+93.0,0,0,1,0,1.8120021477130555,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+96.0,1,1,1,0,1.8120021477130555,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+104.0,0,0,1,0,1.8120021477130555,0,1,0.0,0.0,1.0,0.0,0.0,1.0
+91.0,1,0,1,0,2.577327997346187,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,1,0,2.577327997346187,0,0,1.0,0.0,0.0,1.0,0.0,0.0
+91.0,1,0,1,0,2.9599909221627527,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+91.0,1,0,1,0,2.9599909221627527,1,1,1.0,0.0,0.0,1.0,0.0,0.0
+91.0,1,0,1,0,3.342653846979318,0,1,1.0,0.0,0.0,1.0,0.0,0.0
+,1,0,1,0,3.342653846979318,0,0,1.0,0.0,0.0,1.0,0.0,0.0
