@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <title>Health Information Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Health Information Form</h1>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Health Information Summary</h1>
+        <div class="summary">
+          <div class="summary-item">
+            <span class="summary-label">Age:</span>
+            <span class="summary-value">{{ results['Age'] }}</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Gender:</span>
+            <span class="summary-value">{{ results['Gender'] }}</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Symptoms:</span>
+            <ul class="symptoms-list">
+              {% if results['Symptoms'] %} {% for symptom in results['Symptoms']
+              %}
+              <li>{{ symptom }}</li>
+              {% endfor %} {% else %}
+              <li>No symptoms reported</li>
+              {% endif %}
+            </ul>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Blood Pressure:</span>
+            <span class="summary-value">{{ results['Blood Pressure'] }}</span>
+          </div>
+          <div class="summary-item">
+            <span class="summary-label">Cholesterol Level:</span>
+            <span class="summary-value">
+              {{ results['Cholesterol Level'] }}</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <a href="/">Go Back to the Form</a>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Illness Prediction System</p>
+      </div>
+    </footer>
+  </body>
+</html>

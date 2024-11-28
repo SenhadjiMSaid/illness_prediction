@@ -3,30 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Illness Prediction System</title>
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <title>Health Information Form</title>
   </head>
   <body>
     <header>
-      <h1>Illness Prediction System</h1>
+      <h1>Health Information Form</h1>
     </header>
-    <main>
-      <form action="/" method="POST">
-        <label for="symptoms">Enter your symptoms:</label><br />
-        <textarea
-          id="symptoms"
-          name="symptoms"
-          rows="5"
-          cols="50"
-          placeholder="e.g., fever, cough, sore throat"
-        ></textarea
-        ><br /><br />
-        <button type="submit">Predict Illness</button>
+    <div class="container">
+      <form action="/predict" method="POST" id="predictionForm">
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required min="0" max="120" />
+        </div>
+
+        <div>
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="fever" name="symptoms" value="fever" />
+          <label for="fever">Fever</label>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="cough" name="symptoms" value="cough" />
+          <label for="cough">Cough</label>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="fatigue" name="symptoms" value="fatigue" />
+          <label for="fatigue">Fatigue</label>
+        </div>
+
+        <div class="checkbox-group">
+          <input
+            type="checkbox"
+            id="difficulty-breathing"
+            name="symptoms"
+            value="difficulty-breathing"
+          />
+          <label for="difficulty-breathing">Difficulty Breathing</label>
+        </div>
+
+        <fieldset>
+          <legend>Blood Pressure:</legend>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="bp-low"
+              name="blood-pressure"
+              value="low"
+              required
+            />
+            <label for="bp-low">Low</label>
+            <input
+              type="radio"
+              id="bp-normal"
+              name="blood-pressure"
+              value="normal"
+            />
+            <label for="bp-normal">Normal</label>
+            <input
+              type="radio"
+              id="bp-high"
+              name="blood-pressure"
+              value="high"
+            />
+            <label for="bp-high">High</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Cholesterol Level:</legend>
+          <div class="radio-group">
+            <input
+              type="radio"
+              id="chol-low"
+              name="cholesterol"
+              value="low"
+              required
+            />
+            <label for="chol-low">Low</label>
+            <input
+              type="radio"
+              id="chol-normal"
+              name="cholesterol"
+              value="normal"
+            />
+            <label for="chol-normal">Normal</label>
+            <input
+              type="radio"
+              id="chol-high"
+              name="cholesterol"
+              value="high"
+            />
+            <label for="chol-high">High</label>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
       </form>
-    </main>
+    </div>
     <footer>
-      <p>© 2024 Illness Prediction System</p>
+      <div class="footer-content">
+        <p>&copy; 2024 Illness Prediction System</p>
+      </div>
     </footer>
   </body>
 </html>
