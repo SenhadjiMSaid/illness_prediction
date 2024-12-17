@@ -9,6 +9,69 @@ cholesterol_encoder = joblib.load("../models/encoders/cholesterol_encoder.pkl")
 scaler = joblib.load("../models/encoders/age_scaler.pkl")
 model = joblib.load("../models/best_model/model.pkl")
 
+disease_recommendations = {
+    "Asthma": {
+        "doctor": "Pulmonologist",
+        "advice": "Avoid triggers like smoke and dust, and carry your inhaler at all times."
+    },
+    "Bronchitis": {
+        "doctor": "Pulmonologist",
+        "advice": "Rest, stay hydrated, and avoid smoking or polluted areas."
+    },
+    "Chronic Kidney Disease": {
+        "doctor": "Nephrologist",
+        "advice": "Maintain a low-sodium diet and monitor your kidney function regularly."
+    },
+    "Common Cold": {
+        "doctor": "General Practitioner",
+        "advice": "Rest, drink plenty of fluids, and take over-the-counter medications as needed."
+    },
+    "Dengue Fever": {
+        "doctor": "Infectious Disease Specialist",
+        "advice": "Stay hydrated and monitor your platelet count. Seek immediate care if symptoms worsen."
+    },
+    "Diabetes": {
+        "doctor": "Endocrinologist",
+        "advice": "Monitor your blood sugar levels regularly and maintain a balanced diet."
+    },
+    "Eczema": {
+        "doctor": "Dermatologist",
+        "advice": "Moisturize regularly and avoid harsh soaps or irritants."
+    },
+    "Heart Disease": {
+        "doctor": "Cardiologist",
+        "advice": "Adopt a heart-healthy lifestyle with regular exercise and a balanced diet."
+    },
+    "Hypertension": {
+        "doctor": "Cardiologist",
+        "advice": "Reduce salt intake, exercise regularly, and monitor your blood pressure."
+    },
+    "Influenza": {
+        "doctor": "General Practitioner",
+        "advice": "Rest, stay hydrated, and take antiviral medications if prescribed."
+    },
+    "Liver Disease": {
+        "doctor": "Hepatologist",
+        "advice": "Avoid alcohol and fatty foods. Follow a liver-friendly diet."
+    },
+    "Malaria": {
+        "doctor": "Infectious Disease Specialist",
+        "advice": "Take prescribed antimalarial medications and use mosquito repellents."
+    },
+    "Pneumonia": {
+        "doctor": "Pulmonologist",
+        "advice": "Complete the prescribed antibiotics and get plenty of rest."
+    },
+    "Stroke": {
+        "doctor": "Neurologist",
+        "advice": "Seek immediate medical attention and follow up with rehabilitation therapy."
+    },
+    "Tuberculosis": {
+        "doctor": "Infectious Disease Specialist",
+        "advice": "Complete the full course of medication and ensure proper ventilation."
+    }
+}
+
 
 def predict_disease(test_sample):
     """
@@ -92,6 +155,7 @@ def predict():
     prediction = predict_disease(test_sample)
     print(prediction)
 
+    recommendation = disease_recommendations.get(prediction, {})
     response = {
         "Age": age,
         "Gender": gender,
@@ -99,6 +163,8 @@ def predict():
         "Blood Pressure": blood_pressure,
         "Cholesterol Level": cholesterol_level,
         "prediction": prediction,
+        "doctor": recommendation.get("doctor", "General Practitioner"),
+        "advice": recommendation.get("advice", "Maintain a healthy lifestyle.")
     }
     # print(response)
     return render_template("response.html", results=response)
