@@ -83,44 +83,43 @@ def predict_disease(test_sample):
     Returns:
     str: The decoded disease prediction.
     """
-    binary_columns = ["Fever", "Cough", "Fatigue", "Difficulty Breathing"]
+    binary_columns = ['Fever', 'Cough', 'Fatigue', 'Difficulty Breathing']
     for col in binary_columns:
-        test_sample[col] = test_sample[col].map({"Yes": 1, "No": 0})
+        test_sample[col] = test_sample[col].map({'Yes': 1, 'No': 0})
 
-    test_sample["Gender"] = gender_encoder.transform(test_sample["Gender"])
+    # Encode Gender
+    test_sample['Gender'] = gender_encoder.transform(test_sample['Gender'])
 
-    bp_encoded = bp_encoder.transform(test_sample[["Blood Pressure"]])
-    bp_columns = bp_encoder.get_feature_names_out(["Blood Pressure"])
+    # One-Hot Encode Blood Pressure
+    bp_encoded = bp_encoder.transform(test_sample[['Blood Pressure']])
+    bp_columns = bp_encoder.get_feature_names_out(['Blood Pressure'])
     bp_df = pd.DataFrame(bp_encoded, columns=bp_columns, index=test_sample.index)
 
-    cholesterol_encoded = cholesterol_encoder.transform(
-        test_sample[["Cholesterol Level"]]
-    )
-    cholesterol_columns = cholesterol_encoder.get_feature_names_out(
-        ["Cholesterol Level"]
-    )
-    cholesterol_df = pd.DataFrame(
-        cholesterol_encoded, columns=cholesterol_columns, index=test_sample.index
-    )
+    # One-Hot Encode Cholesterol Level
+    cholesterol_encoded = cholesterol_encoder.transform(test_sample[['Cholesterol Level']])
+    cholesterol_columns = cholesterol_encoder.get_feature_names_out(['Cholesterol Level'])
+    cholesterol_df = pd.DataFrame(cholesterol_encoded, columns=cholesterol_columns, index=test_sample.index)
 
-    test_sample = test_sample.drop(columns=["Blood Pressure", "Cholesterol Level"])
+    # Drop original columns and concatenate encoded columns
+    test_sample = test_sample.drop(columns=['Blood Pressure', 'Cholesterol Level'])
     test_sample = pd.concat([test_sample, bp_df, cholesterol_df], axis=1)
 
+    # Align with training columns
     training_columns = model.feature_names_in_
     for col in training_columns:
         if col not in test_sample:
             test_sample[col] = 0
     test_sample = test_sample[training_columns]
 
-    test_sample[["Age"]] = scaler.transform(test_sample[["Age"]])
+    # Scale Age
+    test_sample[['Age']] = scaler.transform(test_sample[['Age']])
 
+    # Predict and decode the disease
     encoded_prediction = model.predict(test_sample)
-
-    decoded_prediction = disease_encoder.inverse_transform(
-        encoded_prediction.astype(int)
-    )
+    decoded_prediction = disease_encoder.inverse_transform(encoded_prediction.astype(int))
 
     return decoded_prediction[0]
+
 
 
 app = Flask(__name__)
