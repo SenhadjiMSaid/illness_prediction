@@ -192,3 +192,23 @@ h3 {
   margin: 5px 0;
   color: #333;
 }
+.normal-prompt {
+  background-color: #e6f7e6; /* Light green background */
+  border: 1px solid #4caf50; /* Green border */
+  color: #2d6a2d;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.normal-prompt h3 {
+  margin: 0;
+  color: #4caf50;
+}
+
+.normal-prompt p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+}

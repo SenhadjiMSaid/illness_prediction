@@ -12,47 +12,59 @@
     </header>
     <main>
       <div class="container">
-        <h3>Prediction: {{ results['prediction'] }}</h3>
-        <div class="summary">
-          <div class="summary-item">
-            <span class="summary-label">Age:</span>
-            <span class="summary-value">{{ results['Age'] }}</span>
+        {% if results['likely_not_sick'] %}
+          <!-- Prompt for normal values -->
+          <div class="normal-prompt">
+            <h3>You Are Probably Not Sick!</h3>
+            <p>
+              Based on your inputs, there are no significant signs of illness.
+              However, we recommend that you monitor your health regularly and consult a doctor if symptoms arise.
+            </p>
           </div>
-          <div class="summary-item">
-            <span class="summary-label">Gender:</span>
-            <span class="summary-value">{{ results['Gender'] }}</span>
+        {% else %}
+          <!-- Prediction Results -->
+          <h3>Prediction: {{ results['prediction'] }}</h3>
+          <div class="summary">
+            <div class="summary-item">
+              <span class="summary-label">Age:</span>
+              <span class="summary-value">{{ results['Age'] }}</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Gender:</span>
+              <span class="summary-value">{{ results['Gender'] }}</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Symptoms:</span>
+              <ul class="symptoms-list">
+                {% if results['Symptoms'] %}
+                  {% for symptom in results['Symptoms'] %}
+                    <li>{{ symptom }}</li>
+                  {% endfor %}
+                {% else %}
+                  <li>No symptoms reported</li>
+                {% endif %}
+              </ul>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Blood Pressure:</span>
+              <span class="summary-value">{{ results['Blood Pressure'] }}</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-label">Cholesterol Level:</span>
+              <span class="summary-value">{{ results['Cholesterol Level'] }}</span>
+            </div>
           </div>
-          <div class="summary-item">
-            <span class="summary-label">Symptoms:</span>
-            <ul class="symptoms-list">
-              {% if results['Symptoms'] %}
-                {% for symptom in results['Symptoms'] %}
-                  <li>{{ symptom }}</li>
-                {% endfor %}
-              {% else %}
-                <li>No symptoms reported</li>
-              {% endif %}
-            </ul>
-          </div>
-          <div class="summary-item">
-            <span class="summary-label">Blood Pressure:</span>
-            <span class="summary-value">{{ results['Blood Pressure'] }}</span>
-          </div>
-          <div class="summary-item">
-            <span class="summary-label">Cholesterol Level:</span>
-            <span class="summary-value">{{ results['Cholesterol Level'] }}</span>
-          </div>
-        </div>
-      
-        <div class="recommendation">
-          <h3>Recommended Specialist</h3>
-          <p><strong>Doctor:</strong> {{ results['doctor'] }}</p>
-          <p><strong>Advice:</strong> {{ results['advice'] }}</p>
-        </div>
-      </div>
-      
 
-      <a href="/">Go Back to the Form</a>
+          <!-- Doctor Recommendation -->
+          <div class="recommendation">
+            <h3>Recommended Specialist</h3>
+            <p><strong>Doctor:</strong> {{ results['doctor'] }}</p>
+            <p><strong>Advice:</strong> {{ results['advice'] }}</p>
+          </div>
+        {% endif %}
+      </div>
+
+      <a href="/" class="btn">Go Back to the Form</a>
     </main>
     <footer>
       <div class="footer-content">

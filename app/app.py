@@ -144,6 +144,16 @@ def predict():
         symptom: "Yes" if symptom in symptoms else "No" for symptom in all_symptoms
     }
 
+    # Check for normal values
+    if (
+        blood_pressure == "normal"
+        and cholesterol_level == "normal"
+        and not symptoms  # symptoms list is empty
+    ):
+        likely_not_sick = True
+    else:
+        likely_not_sick = False
+
     test_sample_data = {
         **symptom_data,
         "Age": int(age),
@@ -152,8 +162,9 @@ def predict():
         "Cholesterol Level": cholesterol_level,
     }
     test_sample = pd.DataFrame([test_sample_data])
-    prediction = predict_disease(test_sample)
-    print(prediction)
+
+    # Only predict if not all values are normal
+    prediction = predict_disease(test_sample) if not likely_not_sick else "No disease"
 
     recommendation = disease_recommendations.get(prediction, {})
     response = {
@@ -164,10 +175,13 @@ def predict():
         "Cholesterol Level": cholesterol_level,
         "prediction": prediction,
         "doctor": recommendation.get("doctor", "General Practitioner"),
-        "advice": recommendation.get("advice", "Maintain a healthy lifestyle.")
+        "advice": recommendation.get(
+            "advice", "Monitor your health and maintain a healthy lifestyle."
+        ),
+        "likely_not_sick": likely_not_sick,
     }
-    # print(response)
     return render_template("response.html", results=response)
+
 
 
 if __name__ == "__main__":
